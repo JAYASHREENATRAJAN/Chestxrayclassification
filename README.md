@@ -1,8 +1,8 @@
-Chest X-Ray Classifier
+##Chest X-Ray Classifier
 Chest X-Ray Classifier is a web application that utilizes the Teachable Machine platform to classify chest X-ray images through machine learning. It allows users to upload chest X-ray images and predicts the condition depicted in the image.
 
 
-Table of Contents
+##Table of Contents
 Introduction
 Features
 Installation
@@ -19,9 +19,8 @@ Utilizes a trained model based on a comprehensive dataset of chest X-ray images.
 Provides real-time predictions with confidence levels.
 Installation
 Clone the repository:
-
-
 git clone https://github.com/yourusername/Chestxrayclassification.git
+
 Navigate to the project directory:
 
 cd Chestxrayclassification
