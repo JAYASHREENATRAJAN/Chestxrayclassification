@@ -1,60 +1,42 @@
-# RupeeRecognizer
+Chest X-Ray Classifier
+Chest X-Ray Classifier is a web application that utilizes the Teachable Machine platform to classify chest X-ray images through machine learning. It allows users to upload chest X-ray images and predicts the condition depicted in the image.
 
-RupeeRecognizer is a web application that utilizes the Teachable Machine platform to predict various denominations of Indian currency notes through machine learning. It allows users to upload images of Indian currency notes and predicts their denominations.
 
-![RupeeRecognizer HomePage](./RupeeRecognizer_HomePage.jpg)
+Table of Contents
+Introduction
+Features
+Installation
+Usage
+Contributing
+Deployment
+License
+Introduction
+This project harnesses the power of machine learning to accurately classify chest X-ray images. It is built using TensorFlow.js and the Teachable Machine platform, allowing for easy integration and deployment in web applications.
 
-## Table of Contents
+Features
+Predicts various conditions from chest X-ray images.
+Utilizes a trained model based on a comprehensive dataset of chest X-ray images.
+Provides real-time predictions with confidence levels.
+Installation
+Clone the repository:
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Deployment](#deployment)
-- [License](#license)
 
-## Introduction
+git clone https://github.com/yourusername/Chestxrayclassification.git
+Navigate to the project directory:
 
-This project harnesses the power of machine learning to accurately identify various denominations of Indian currency notes. It is built using TensorFlow.js and the Teachable Machine platform, allowing for easy integration and deployment in web applications.
+cd Chestxrayclassification
+Open the index.html file in a web browser or deploy the project to a web server.
 
-## Features
-
-- Predicts denominations of Indian currency notes including 10, 20, 50, 100, 200, and 500 Rs notes.
-- Utilizes a trained model based on a dataset comprising over 450 images of each note denomination.
-- Provides real-time predictions with confidence levels.
-
-## Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/malivinayak/RupeeRecognizer.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd RupeeRecognizer
-    ```
-
-3. Open the `index.html` file in a web browser or deploy the project to a web server.
-
-## Usage
-
-1. Open the web application in a browser.
-2. Click on the "Choose File" button to upload an image containing an Indian currency note.
-3. Click the "Predict" button to view the predicted denomination of the uploaded note.
-4. The prediction result will be displayed along with the confidence level.
-
-## Contributing
-
+Usage
+Open the web application in a browser.
+Click on the "Choose File" button to upload a chest X-ray image.
+Click the "Predict" button to view the predicted condition of the uploaded X-ray.
+The prediction result will be displayed along with the confidence level.
+Contributing
 Contributions are welcome! Please feel free to fork the repository, make changes, and submit pull requests. For major changes, please open an issue first to discuss the proposed changes.
 
-## Deployment
+Deployment
+The project can be deployed using GitHub Pages. You can access the live demo here.
 
-The project can be deployed using GitHub Pages. You can access the live demo [here](https://malivinayak.github.io/RupeeRecognizer).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
