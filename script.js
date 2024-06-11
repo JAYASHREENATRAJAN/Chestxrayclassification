@@ -52,7 +52,7 @@ async function predict() {
 
             // Display the result in a sentence
             if (bestPrediction && maxProbability > 0) {
-                labelContainer.innerHTML = `The given image is most likely a ${bestPrediction.className} Rupee Note with a confidence of ${(maxProbability * 100).toFixed(2)}%.`;
+                labelContainer.innerHTML = `The given image is most likely a ${bestPrediction.className} Chest X ray with a confidence of ${(maxProbability * 100).toFixed(2)}%.`;
             } else {
                 labelContainer.innerHTML = "The model is confused and couldn't make a confident prediction.";
             }
