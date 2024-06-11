@@ -19,7 +19,7 @@ Utilizes a trained model based on a comprehensive dataset of chest X-ray images.
 Provides real-time predictions with confidence levels.
 Installation
 Clone the repository:
-git clone https://github.com/yourusername/Chestxrayclassification.git
+git clone https://github.com/JAYASHREENATRAJAN/Chestxrayclassification.git
 
 Navigate to the project directory:
 
